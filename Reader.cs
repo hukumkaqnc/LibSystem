@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace LibSystem
 {
-    public partial class Form1 : Form
+    public partial class Reader : Form
     {
-        public Form1()
+        public Reader()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Librarian newForm = new Librarian();
-            newForm.Show();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Reader newForm = new Reader();
-            newForm.Show();
+
         }
     }
 }
